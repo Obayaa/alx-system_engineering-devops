@@ -1,2 +1,2 @@
 #!/bin/bash
-ls
+ls | awk '{print $0}' 
